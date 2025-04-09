@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tớ có điều muốn nói...</title>
+    <style>
+         html, body {
+            height: 100%;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            overflow-y: auto;
+        }
+
+         blockquote {
+    border-left: 4px solid #ccc;
+    padding-left: 10px;
+    margin-top: 20px;
+    font-style: italic;
+    color: #fff;
+         }
+
+
+       .love-letter {
+    margin: 40px auto; /* Căn giữa và tạo khoảng cách phía trên */
+    width: 90%;
+    max-width: 800px; /* Giới hạn chiều rộng tối đa */
+    
+    color: white;
+    font-size: 1.2rem;
+    text-align: left;
+    line-height: 1.8;
+
+    background: rgba(0, 0, 0, 0.4); /* Nền mờ để dễ đọc */
+    padding: 30px;
+    border-radius: 16px;
+
+    position: relative;
+    z-index: 2;
+    box-sizing: border-box;
+    word-wrap: break-word; /* Đảm bảo xuống dòng đẹp */
+}
+
+
+
+
+@keyframes floatUpLetter {
+    0% {
+        bottom: -100%;
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        bottom: 100%;
+        opacity: 0;
+    }
+}
+  
+
+        button {
+            padding: 10px 20px;
+            margin: 20px;
+            font-size: 18px;
+            cursor: pointer;
+            border: none;
+            border-radius: 10px;
+        }
+
+        #yes {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        #no {
+            background-color: #f44336;
+            color: white;
+        }
+
+        .heart {
+            position: fixed;
+            color: red;
+            font-size: 24px;
+            animation: float 3s linear forwards;
+            user-select: none;
+            pointer-events: none;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0) scale(1); opacity: 1; }
+            50% { transform: translateY(-150px) scale(1.5); opacity: 0.8; }
+            100% { transform: translateY(-300px) scale(0.5); opacity: 0; }
+        }
+
+        @keyframes colorChange {
+            0% { color: #9e0ba6; }
+            50% { color: #d6b0d8; }
+            100% { color: #9e0ba6; }
+        }
+
+        #message {
+            max-width: 600px;
+            margin: 20px auto;
+            line-height: 1.8;
+            font-family: 'Alex Brush', cursive;
+            font-size: 24px;
+            animation: colorChange 8s infinite;
+        }
+
+        img {
+            width: 250px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+
+             #author {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            text-align: right;
+        }
+
+        #author .title {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        #author .signature {
+            font-family: 'Signatura Monoline', cursive;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>💌 Đôi điều muốn nói 💌</h1>
+
+    <div class="love-letter">
+       <p><strong>Hi, Diệp</strong></p>
+
+        <p>Tớ biết rằng cậu chưa từng nhớ tớ là ai, Nhưng ngay từ khi lần đầu gặp cậu, lúc lên nhận lớp học năm lớp 10. Người đầu tiên mà tớ bị thu hút ánh nhìn... đó chính là cậu.</p> 
+        <p>Rồi kể từ đó lúc nào tớ cũng luôn dõi theo bóng lưng cậu.  Âm thầm ủng hộ cậu trong những cuộc bình chọn, hay mỗi lần cậu đưa ra ý kiến trong lớp suốt mấy năm học vừa rồi. Miễn là cậu muốn, tớ đều luôn ủng hộ.</p> 
+        <p>Tớ đã nghĩ rằng... sẽ giữ kín cảm xúc này mãi mãi. Nhưng khi nhận ra rằng sau kỳ thi, chúng ta có thể sẽ chẳng còn gặp lại, tớ muốn một lần dũng cảm nói ra. Vì sau khi chúng ta thi xong tốt nghiệp chúng ta có lẽ sẽ trở thành người xa lạ với nhau.</p> 
+        <p>Tớ mong rằng cậu sẽ tìm được một người đàn ông luôn bên cạnh, quan tâm và lo lắng cho cậu. Và, đừng buông xuôi việc học nhé. Hãy cố gắng cải thiện điểm số lần này, đừng để nó dừng lại ở:  <strong>5.60; 7.5; 5.00; 4.60</strong>.</p>
+       <p>Chỉ còn <strong>73 ngày</strong> nữa thôi, cậu sẽ đỗ vào trường đại học mà mình mơ ước.</p> 
+
+
+     <p><strong>CỐ GẮNG LÊN NHÉ!</strong></p>
+
+<blockquote>
+    Người viết thư,<br>
+    <em>Kẻ SIMP lỏ mạnh nhất lịch sử</em>
+</blockquote>                                                                               
+
+
+    </div>
+
+   <img src="image.png" alt="Hình ảnh của bạn" style="width: 300px; border: 1px solid #ccc;"/>
+
+
+
+ <p style="font-size: 20px; font-weight: bold; color: #000;">Cậu để kiểu Minimalist Box Braids này rất ngầu đấy 🤩💯</p>
+
+    <div id="button-container">
+        <button id="yes">Đồng ý ❤️</button>
+        <button id="no">Không 😢</button>
+    
+
+        
+        <script> 
+    function createHeart() {
+        const heart = document.createElement("div");
+        heart.className = "heart";
+        heart.innerHTML = "❤️";
+        document.body.appendChild(heart);
+
+        const x = Math.random() * window.innerWidth;
+        const y = window.innerHeight - 50;
+
+        heart.style.left = `${x}px`;
+        heart.style.top = `${y}px`;
+
+        setTimeout(() => heart.remove(), 3000);
+    }
+
+    setInterval(createHeart, 500);
+
+    document.getElementById('yes').addEventListener('click', () => {
+        alert("Cảm ơn cậu! 💕");
+        setInterval(() => createSpecialHeart("💕💖"), 200);
+    });
+
+    document.getElementById('no').addEventListener('click', () => {
+        alert("Good bye! 😢💔");
+        setInterval(() => createSpecialHeart("😭💔"), 200);
+    });
+
+    function createSpecialHeart(icon) {
+        const heart = document.createElement("div");
+        heart.className = "heart";
+        heart.innerHTML = icon;
+        document.body.appendChild(heart);
+
+        const x = Math.random() * window.innerWidth;
+        const y = window.innerHeight - 50;
+
+        heart.style.left = `${x}px`;
+        heart.style.top = `${y}px`;
+
+        setTimeout(() => heart.remove(), 3000);
+    }
+</script>
+
+
+</body>
+</html>
